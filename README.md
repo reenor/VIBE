@@ -71,8 +71,38 @@ python
 ```
 
 ### 4. VIBE
+For downloading YouTube videos
+```Shell
+pip install mkl intel-openmp
+pip install git+https://github.com/giacaglia/pytube.git --upgrade
+```
+
+mkdir %PATH_TO_PROJECT% && cd /d %PATH_TO_PROJECT%
+git clone https://github.com/reenor/VIBE
+
+    # Add to requirements.txt
+    pyglet==1.5.27
+
+```Shell
+set PATH_TO_PROJECT=D:\Projects\Repos-VIBE && set PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE
+```
+```Shell
+mkdir %PATH_TO_PROJECT% && cd /d %PATH_TO_PROJECT%
+```
+```Shell
+git clone https://github.com/reenor/VIBE
+```
+```Shell
+cd /d %PATH_TO_VIBE% && pip install -r requirements.txt
+```
 
 ### 5. Input data
+```Shell
+mkdir %PATH_TO_VIBE%\data && cd /d %PATH_TO_VIBE%\data
+```
+```Shell
+gdown "https://drive.google.com/uc?id=1untXhYOLQtpNEy4GTY_0fL_H-k6cTf_r&confirm=t"
+```
 
 ## References
 - https://github.com/carlosedubarreto/vibe_win_install
