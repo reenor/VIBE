@@ -16,9 +16,8 @@ We need to install the following tools:
 - Miniconda: https://docs.anaconda.com/miniconda/
 
 ### 0Bis. CUDA-powered GPU 
-Frist, update the latest GPU driver: https://www.nvidia.com/Download/index.aspx?lang=en-us
-
-Then, 
+Frist, update the latest GPU driver: https://www.nvidia.com/Download/index.aspx?lang=en-us and restart the system for the changes to take effect.
+Then, get the CUDA Compute Capability of your GPU on [CUDA Wikipedia page](https://en.wikipedia.org/wiki/CUDA#GPUs_supported), 
 
 ### 1. Virtual Environment for Python
 
@@ -32,5 +31,5 @@ Then,
 
 ## References
 - https://github.com/carlosedubarreto/vibe_win_install
-- https://github.com/prabindh/mygpu?tab=readme-ov-file
+- CUDA Compute Capability, https://github.com/prabindh/mygpu?tab=readme-ov-file
 
