@@ -16,9 +16,17 @@ We need to install the following tools:
 - Miniconda: https://docs.anaconda.com/miniconda/
 
 ### 0Bis. CUDA-powered GPU 
-Frist, update the latest GPU driver: https://www.nvidia.com/Download/index.aspx?lang=en-us and restart the system for the changes to take effect.
+First, update the latest GPU driver: https://www.nvidia.com/Download/index.aspx?lang=en-us and restart the system for the changes to take effect.
 
-Then, get the CUDA Compute Capability of your GPU, and find out which CUDA versions that the GPU supports on [CUDA Wikipedia page](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
+In order to check our GPU driver, use the following command:
+```sh
+nvidia-smi
+```
+Second, get the CUDA Compute Capability of your GPU, and find out which CUDA versions that the GPU supports on [CUDA Wikipedia page](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
+
+For example, GPU on my system is NVIDIA GeForce RTX 3070 -> Compute Capability is 8.6 (or sm_86) -> CUDA verions the GPU supports are 11.1 - 11.4
+
+> Note: execute command `nvidia-smi`
 
 ### 1. Virtual Environment for Python
 
