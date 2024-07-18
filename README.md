@@ -1,5 +1,7 @@
 # VIBE: Video Inference for Human Body Pose and Shape Estimation
-[![Official Project Link](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/mkocabas/VIBE)
+[![Official Project Link](https://avatars.githubusercontent.com/u/6137870?s=48&v=4)](https://github.com/mkocabas/VIBE)
+
+
 
 <p float="center">
   <img src="doc/assets/header_1.gif" width="49%" />
