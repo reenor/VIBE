@@ -77,12 +77,6 @@ pip install mkl intel-openmp
 pip install git+https://github.com/giacaglia/pytube.git --upgrade
 ```
 
-mkdir %PATH_TO_PROJECT% && cd /d %PATH_TO_PROJECT%
-git clone https://github.com/reenor/VIBE
-
-    # Add to requirements.txt
-    pyglet==1.5.27
-
 ```Shell
 set PATH_TO_PROJECT=D:\Projects\Repos-VIBE && set PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE
 ```
