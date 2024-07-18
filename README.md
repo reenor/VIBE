@@ -11,8 +11,16 @@ We need to install the following tools:
 - GIT: https://git-scm.com/download/win
 - MSVC++ Redis (14.40.33810.0) : https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170
 - FFMPEG (7.0.1) : https://www.gyan.dev/ffmpeg/builds/#release-builds
+> Note: after extracted FFMPEG, add folder `bin` to the `Path` in System Environment Variables
 
-### 1. Virtual environment for Python
+- Miniconda: https://docs.anaconda.com/miniconda/
+
+### 0Bis. CUDA-powered GPU 
+Frist, update the latest GPU driver: https://www.nvidia.com/Download/index.aspx?lang=en-us
+
+Then, 
+
+### 1. Virtual Environment for Python
 
 ### 2. CUDA and cuDNN
 
@@ -24,4 +32,5 @@ We need to install the following tools:
 
 ## References
 - https://github.com/carlosedubarreto/vibe_win_install
+- https://github.com/prabindh/mygpu?tab=readme-ov-file
 
