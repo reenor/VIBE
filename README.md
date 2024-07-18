@@ -22,11 +22,11 @@ In order to check our GPU driver, use the following command:
 ```sh
 nvidia-smi
 ```
-Second, get the CUDA Compute Capability of your GPU, and find out which CUDA versions that the GPU supports on [CUDA Wikipedia page](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
+Second, get the CUDA Compute Capability of our GPU, and find out which CUDA versions are supported for this Compute Capability on [CUDA Wikipedia page](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
 
-For example, GPU on my system is NVIDIA GeForce RTX 3070 -> Compute Capability is 8.6 (or sm_86) -> CUDA verions the GPU supports are 11.1 - 11.4
+For example, GPU on my system is NVIDIA GeForce RTX 3070 -> Compute Capability is **8.6** (or **sm_86**) -> CUDA versions of **11.1 - 11.4** are supported for sm_86. Therefore, we will use this versions when choosing the CUDA runtime (or CUDA Toolkit) in the next steps.
 
-> Note: execute command `nvidia-smi`
+> Note: CUDA version coming from executing command `nvidia-smi` is considered as CUDA Driver version, and it MUST NOT BE USED to install other components, [reference](https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi)
 
 ### 1. Virtual Environment for Python
 
