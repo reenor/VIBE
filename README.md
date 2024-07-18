@@ -17,7 +17,8 @@ We need to install the following tools:
 
 ### 0Bis. CUDA-powered GPU 
 Frist, update the latest GPU driver: https://www.nvidia.com/Download/index.aspx?lang=en-us and restart the system for the changes to take effect.
-Then, get the CUDA Compute Capability of your GPU on [CUDA Wikipedia page](https://en.wikipedia.org/wiki/CUDA#GPUs_supported), 
+
+Then, get the CUDA Compute Capability of your GPU, and find out which CUDA versions that the GPU supports on [CUDA Wikipedia page](https://en.wikipedia.org/wiki/CUDA#GPUs_supported).
 
 ### 1. Virtual Environment for Python
 
