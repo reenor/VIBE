@@ -1,5 +1,5 @@
 # VIBE: Video Inference for Human Body Pose and Shape Estimation
-[![Official Project Link](https://avatars.githubusercontent.com/u/6137870?s=48&v=4)](https://github.com/mkocabas/VIBE)
+[Official Project Link](https://github.com/mkocabas/VIBE)
 
 
 
