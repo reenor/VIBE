@@ -8,7 +8,10 @@ set PATH_TO_VENV=C:\venvs\vibe && conda activate %PATH_TO_VENV%
 ```
 Navigate to VIBE
 ```Shell
-set PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE && cd /d %PATH_TO_VIBE%
+set PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE
+```
+```Shell
+cd /d %PATH_TO_VIBE%
 ```
 Execute
 ```Shell
