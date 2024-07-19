@@ -15,7 +15,7 @@ cd /d %PATH_TO_VIBE%
 ```
 Execute
 ```Shell
-python demo_windows.py --vid_file sample_video.mp4 --output_folder output/ --display
+python demo_windows.py --vid_file ../vibe_input/sample_video.mp4 --output_folder ../vibe_output --display
 ```
 
 ## Windows Installation
@@ -120,7 +120,10 @@ gdown "https://drive.google.com/uc?id=1untXhYOLQtpNEy4GTY_0fL_H-k6cTf_r&confirm=
 tar -xf vibe_data.zip
 ```
 ```Shell
-move %PATH_TO_VIBE%\data\vibe_data\sample_video.mp4 %PATH_TO_VIBE%
+mkdir %PATH_TO_PROJECT%\vibe_input
+```
+```Shell
+move %PATH_TO_VIBE%\data\vibe_data\sample_video.mp4 %PATH_TO_PROJECT%\vibe_input
 ```
 
 Torch model and yolo config
