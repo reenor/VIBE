@@ -4,11 +4,11 @@
 ## Running
 Activate the virtual environment
 ```Shell
-set PATH_TO_VENV=C:\venvs\vibe && conda activate %PATH_TO_VENV%
+set "PATH_TO_VENV=C:\venvs\vibe" && conda activate %PATH_TO_VENV%
 ```
 Navigate to VIBE
 ```Shell
-set PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE
+set "PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE"
 ```
 ```Shell
 cd /d %PATH_TO_VIBE%
@@ -48,7 +48,7 @@ Launch Anaconda Prompt as administrator
 
 Create a place to store virtual environment
 ```Shell
-set PATH_TO_VENV=C:\venvs\vibe
+set "PATH_TO_VENV=C:\venvs\vibe"
 ```
 Create a virtual environment
 ```Shell
@@ -95,7 +95,7 @@ pip install git+https://github.com/giacaglia/pytube.git --upgrade
 
 Install VIBE
 ```Shell
-set PATH_TO_PROJECT=D:\Projects\Repos-VIBE && set PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE
+set "PATH_TO_PROJECT=D:\Projects\Repos-VIBE" && set "PATH_TO_VIBE=D:\Projects\Repos-VIBE\VIBE"
 ```
 ```Shell
 mkdir %PATH_TO_PROJECT% && cd /d %PATH_TO_PROJECT%
