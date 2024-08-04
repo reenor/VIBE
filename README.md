@@ -2,6 +2,8 @@
 [Official Project Link](https://github.com/mkocabas/VIBE)
 
 ## Running
+Launch Anaconda Prompt as administrator
+
 Activate the virtual environment
 ```Shell
 set "PATH_TO_VENV=C:\venvs\vibe" && conda activate %PATH_TO_VENV%
