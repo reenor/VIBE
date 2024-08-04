@@ -142,4 +142,5 @@ move %PATH_TO_VIBE%\yolov3.cfg %HOMEDRIVE%\%HOMEPATH%\.torch\config
 ## References
 - https://github.com/carlosedubarreto/vibe_win_install
 - CUDA Compute Capability, https://github.com/prabindh/mygpu?tab=readme-ov-file
+- Spyder, https://medium.com/@apremgeorge/using-conda-python-environments-with-spyder-ide-and-jupyter-notebooks-in-windows-4e0a905aaac5
 
